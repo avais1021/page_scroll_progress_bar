@@ -19,8 +19,8 @@ const pageScroll = () => {
     var scrolled = (winscroll / height) * 100;
     proBar.style.opacity = "1";
     proBar.style.width = scrolled + '%';
-    // let scrollPercent = Math.ceil(scrolled);
-    let scrollPercent = Math.floor(scrolled);
+    let scrollPercent = Math.ceil(scrolled);
+    // let scrollPercent = Math.floor(scrolled);
     proBar.innerHTML = scrollPercent + '%';
     // console.log(scrolled,'scrolled');
     // proBar.
